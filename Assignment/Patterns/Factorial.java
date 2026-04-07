@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Factorial
+{
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the Number: ");
+		int num=sc.nextInt();
+		long fact=1;
+		
+		if(num<0)
+		{
+			System.out.println("Number is"+num+" is not defined");
+		}
+		else if(num>20)
+		{
+			System.out.println("long cannot define factorial more than 20");
+		}
+		else
+		{
+			for(int i=1;i<=9num;i++)
+			{
+				fact=fact*i;
+			}
+			System.out.println(fact);
+		}
+		
+	}
+}
